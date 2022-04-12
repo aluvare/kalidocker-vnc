@@ -5,7 +5,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt update && \
 
 RUN mkdir -p /scripts
 ADD supervisor.conf.d/ /etc/supervisor/conf.d/
-ADD scripts/ /scripts/
 ADD launcher.sh /scripts/launcher.sh
 
 ENTRYPOINT bash /scripts/launcher.sh
