@@ -1,2 +1,1 @@
-# kalidocker-vdi
 # kalidocker-vnc
